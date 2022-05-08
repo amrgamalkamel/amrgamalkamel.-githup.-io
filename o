@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login Form</title>
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"  crossorigin="anonymous">
+<script  src="js/amr gamal2.js">
+/*
+javescript function to change the theme 
+in the folder of js
+
+*/
+
+</script>
+
+</head>
+
+<body>
+    
+
+
+        <header id="hd" style="display: flex;margin-top: 0%; background-color: aliceblue; width: 100%;  font-family: 'Poppins', sans-serif;
+        ">
+        
+            <div class="d1">
+                <button id="uu" class="btn"><i id="material-icons" class="material-icons">menu</i>
+        
+                </button>
+                <ul>
+                    <li><a id="p1" href="#">The Great Pyramids of Choiula</a></li>
+                    <li><a id="p2" href="#" >Great wall of China</a></li>
+                    <li><a id="p3" href="#">Valley of the kinks </a></li>
+                    <li><a id="p4" href="#">Christ the Redeemer</a></li>
+                    <li><a id="p5" href="#">Brandenburg Gate</a></li>
+                    <li><a id="p6"  href="#">Brooklyn bridge</a></li>
+                    <li><a id="p7" href="#">Big ben Clock </a></li>                 
+                       <li><a id="p8" href="#">Tag mahal </a></li>
+                       <li><a  id="p9"  href="#"> Burj Khalifa</a></li>
+                       <li><a   id="p10" href="index.html">Pyramids</a></li>
+                       <li><a id="p11" href="#">Eiffel Tower</a></li>
+                       <li><a id="p12" href="#"> Colosseum</a></li>
+                       <li><a id="p13" href="#">Maldives</a></li>
+                       <li><a id="p14" href="#">Venice</a></li>
+                       
+                </ul>
+            </div>
+            
+            <a  class="logo">Tourism&Places</a>
+            <a  class="nav-links" href="*">Home</a>
+            <a class="nav-links"  href="#videos">Videos</a>
+            <a class="nav-links " href="#contact">contact us</a>
+            <a class="nav-links " href="pro.html">Login</a>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        
+            <div style ="margin-top:15px "  id="inp"  class="button">
+                        
+                        <input  onclick="theme(this)" type="checkbox" >
+
+                    </div>
+        
+        
+        </header>
+
+
+
+
+
+
+<div id="rr" class="rr">
+
+
+
+    
+    <main id="form">
+    <section style="display: inline;" id="ma">
+    <i id="o1" class='far fa-user-circle' style='font-size:84px;padding: 5px; color: #27a5df'></i>
+        <h1> Login </h1><br><hr><br><br>
+        
+       Username
+        <input class="tt" id="un" placeholder="Enter username..." type="text" /><br>
+        <br>
+        Password
+        <input  class="tt" type="password" id="psw" placeholder="Enter password..." /><br><br>
+        <i id="o2"  class="far -check-circle" style="font-size: 20px;color: #27a5df" onclick="uc()" id="1"></i>
+
+        <button class="dd" onclick="login()">Login
+        <i id="o3" class="fas fa-sign-in-alt"></i>
+        </button> 
+    </section>
+    <br>
+<section id="mee" style="display: inline;">
+<p class="or"  style="font-size: medium; font-weight: 100;">
+  ----- or continue with -----
+</p>
+<br>
+<section class="icons" >
+  <i id="i1" class="fab fa-google"></i>
+  <i id="i2" class="fab fa-github"></i>
+  <i id="i3" class="fab fa-facebook"></i>
+</section>
+</section>
+
+
+    <section id="out" style="display: none;">
+        <i id="o4" class='far fa-user-circle' style='font-size:84px;padding: 5px; color: #27a5df'></i>
+        <h1> User Information </h1> <br> <br><hr><br>
+        <p id="info"></p><br />
+        <button class="dd" onclick="logout()">Logout
+       <i id="o5" class="fas fa-power-off"></i>
+        </button>
+    </section>
+    </main>
+    <br>
+    <br>
+</div>
+</body>
+</html>
